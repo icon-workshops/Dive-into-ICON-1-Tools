@@ -21,11 +21,4 @@ class HelloWorld(IconScoreBase):
     def hello(self) -> str:
         Logger.info('Hello, world!', TAG)
         return "Hello"
-
-    @payable
-    def fallback(self):
-        Logger.info('fallback is called', TAG)
-
-    @external
-    def tokenFallback(self, _from: Address, _value: int, _data: bytes):
-        Logger.info('tokenFallabck is called', TAG)
+    
