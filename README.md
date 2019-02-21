@@ -5,8 +5,9 @@
 2. Unix Laptop(Ubuntu 18.04, OS X)
 3. Python experience  
 4. Github (clone this repo)   
-5. Run Docker container (T-Bears container)  
- * ```$ docker run -it -p 9000:9000 --name tbears-container iconloop/tbears```
+5. Create directory for `icon-workshop` & Run Docker container (T-Bears container)  
+ * ```$ cd ~ && mkdir icon-workshop && cd icon-workshop```
+ * ```$ docker run -it -p 9000:9000 -v ${PWD}:/tbears/icon-workshop --name tbears-container iconloop/tbears```
 6. Python 3.6, Python IDE  
 
 # Goal 
