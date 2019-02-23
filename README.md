@@ -45,7 +45,7 @@ https://icon-project.github.io/score-guide
 
 
 #### 2. ICON Developer portal
-https://icondev.io/index.do
+https://icondev.io/
 
 #### 3. Tracker
 * Mainnet : https://tracker.icon.foundation
