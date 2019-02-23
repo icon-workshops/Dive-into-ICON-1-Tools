@@ -2,7 +2,7 @@
   
 # Prerequisite
 1. install Docker : https://docs.docker.com
-2. Unix Laptop(Ubuntu 18.04, OS X)
+2. Unix Laptop(Ubuntu 18.04, OS X) OR OS X Laptop(Macbook)
 3. Python experience  
 4. Github (clone this repo)   
 5. Create directory for `icon-workshop` & Run Docker container (T-Bears container)  
