@@ -1,0 +1,13 @@
+{
+  "uri": "http://127.0.0.1:9000/api/v3",
+  "nid": "0x3",
+  "to": "cx0000000000000000000000000000000000000000",
+  "stepLimit": "0x3000000",
+  "deploy": {
+    "mode": "install",
+    "scoreParams": {
+      "initialSupply": "1000",
+      "decimals": "8"
+    }
+  }
+}

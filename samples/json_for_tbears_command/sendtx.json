@@ -1,0 +1,20 @@
+{
+  "jsonrpc": "2.0",
+  "method": "icx_sendTransaction",
+  "params": {
+    "version": "0x3",
+    "value": "0x0",
+    "stepLimit": "0x3000000",
+    "nid": "0x3",
+    "nonce": "0x1",
+    "to": "cx4d5a79f329adcf00a3daa99539f0eeea2d43d239",
+    "dataType": "call",
+    "data": {
+      "method": "setValue",
+      "params": {
+        "value": "0x123"
+      }
+    }
+  },
+  "id": 1
+}

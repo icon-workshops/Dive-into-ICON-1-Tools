@@ -1,0 +1,10 @@
+{
+  "jsonrpc": "2.0",
+  "keyStore": "./mykey",
+  "method": "icx_sendTransaction",
+  "params": {
+    "version": "0x3",
+    "stepLimit": "0x3000000"
+  },
+  "id": 1
+}
