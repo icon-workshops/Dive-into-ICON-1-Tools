@@ -2,13 +2,14 @@
   
 # Prerequisite
 1. install Docker : https://docs.docker.com
-2. Unix Laptop(Ubuntu 18.04, OS X) OR OS X Laptop(Macbook)
+2. Linux Laptop(Ubuntu 18.04 recommended) OR OS X Laptop
 3. Python experience  
 4. Github (clone this repo)   
 5. Create directory for `icon-workshop` & Run Docker container (T-Bears container)  
  * ```$ cd ~ && mkdir icon-workshop && cd icon-workshop```
  * ```$ docker run -it -p 9000:9000 -v ${PWD}:/tbears/icon-workshop --name tbears-container iconloop/tbears```
 6. Python 3.6, Python IDE (Pycharm recommend.)
+7. T-Bears installation
 
 # Goal 
 
