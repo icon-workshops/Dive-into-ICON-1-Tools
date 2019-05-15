@@ -7,7 +7,7 @@
 4. Github (clone this repo)   
 5. Create directory for `icon-workshop` & Run Docker container (T-Bears container)  
  * ```$ cd ~ && mkdir icon-workshop && cd icon-workshop```
- * ```$ docker run -it -p 9000:9000 -v ${PWD}:/tbears/icon-workshop --name tbears-container iconloop/tbears```
+ * ```$ docker run -it -p 9000:9000 -v ${PWD}:/tbears/icon-workshop --name tbears-container iconloop/tbears:1.1.0.1```
 6. Python 3.6, Python IDE (Pycharm recommend.)
 7. T-Bears installation
 
@@ -58,3 +58,7 @@ https://chrome.google.com/webstore/detail/iconex/flpiciilemghbmfalicajoolhkkenfe
 
 #### 5. Faucet (Testnet)
 http://52.88.70.222
+
+
+#### 6. Dockerhub iconloop/tbears
+https://hub.docker.com/r/iconloop/tbears
